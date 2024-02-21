@@ -61,6 +61,7 @@ p, h1, h2, h3, h4, h5, h6 {
     This will make them render on the same line. */
     #headerTop > div {
       display: inline-block;
+      font-size: 30px
     }
 
     /* 👉 Task 5- Target the spans that are nested inside the id headerTop.
@@ -83,6 +84,7 @@ p, h1, h2, h3, h4, h5, h6 {
       border-bottom: 61px;
       padding: 10px;
       color: grey;
+      font-size: 25px;
     }
 
     /* 👉 Task 8- Target the divs that are nested directly inside the element with id headerBottom.
@@ -104,6 +106,7 @@ p, h1, h2, h3, h4, h5, h6 {
       border-radius: 5px;
       margin-right: 15px;  
       cursor: pointer;
+      font-size: 25px;
     }
 
     /* 👉 Task 10- Research how to remove all the default styling of button elements.
@@ -145,30 +148,35 @@ p, h1, h2, h3, h4, h5, h6 {
     Make the check, the date and the size take up 8% of the width of the parent element.
     This will arrange the details in visible columns. */
     .email-name {
+      font-size: 25px;
       width: 35%;
     }
 
     .email-subject {
+      font-size: 25px;
       width: 35%;
     }
 
-    .email-check{
+    .email-check{   
       width: 8%;
     }
 
     .email-date{
+      font-size: 20px;
       width: 8%;
     }
 
     .email-size{
+      font-size: 20px;
       width: 8%;
     }
 
     /* 👉 Task 15- Target the second email and have its font weight be bold.
     This will make it look "unread". */
-
+    .email:nth-child(2) {
+      font-weight: bold;
+    }
     
-
     /* Well done! Check the design file to make sure you are close enough. */
 
   </style>
